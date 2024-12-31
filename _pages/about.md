@@ -63,5 +63,4 @@ I have published more than 100 papers at the top international AI conferences wi
 
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
-
 -->
