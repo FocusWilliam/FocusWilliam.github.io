@@ -21,7 +21,7 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 -->
 
-
+# Hi there 👋
 <!-- 
 # 📝 Python 数据分析与应用 \\[中文版](FocusWilliam.github.io/edit/main/_pages/about2.md)
 <span class='anchor' id='about-me'></span>
@@ -59,10 +59,14 @@ I have published more than 100 papers at the top international AI conferences wi
 - *2024.09* Lonnie Edelheit Scholarship
 - *2023.12* Xu Jialu Whole Person Education Scholarship 
 - *2023.11* Guangdong Medical Valley Scholarship
+- *2023.09* Bengali.AI Speech Recognition Competition Silver medal
 
 # 📖 Educations
 - *2024.06 - 2026.01 (now)*, University of Illinois Urbana-Champaign, M.S in Biomedical Image Computing. 
 - *2020.09 - 2024.06*, Hong Kong Baptist University, B.S in Computer Science.
+
+# 📝 Research Experience
+- *2023.09 - 2024.06*, Efficient Cubic Regional Attention Transformer (CRAT) for 3D Tumor Segmentation
   
 <!-- 
 # 💬 Invited Talks
