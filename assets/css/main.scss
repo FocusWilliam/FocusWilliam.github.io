@@ -107,3 +107,51 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.exp-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.1em;
+    padding: 1.1em 0;
+    border-bottom: 1px solid $border-color;
+
+    &:last-child {
+        border-bottom: none;
+    }
+
+    .exp-logo {
+        flex: 0 0 auto;
+        height: 38px;
+        width: auto;
+        max-width: 110px;
+        object-fit: contain;
+        margin-top: 0.2em;
+    }
+
+    .exp-header {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+
+    .exp-company {
+        font-weight: 700;
+        font-size: 1.08em;
+        color: $info-color;
+    }
+
+    .exp-role {
+        font-weight: 600;
+        display: block;
+        margin-bottom: 0.15em;
+    }
+
+    .exp-meta {
+        color: $primary-color;
+        font-size: 0.9em;
+    }
+
+    ul {
+        margin-top: 0.5em;
+        margin-bottom: 0;
+    }
+}

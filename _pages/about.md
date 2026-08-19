@@ -50,22 +50,55 @@ I have published more than 100 papers at the top international AI conferences wi
 -->
 
 # 💼 Work Experience
-- *2026.06 - Present*, **SRE Intern — Agent Tooling for Production Release Automation**, Tencent America LLC, New York, USA.
-  - Built the agent-facing tooling layer for an LLM release copilot, packaging a 6,000-line Node.js/Python/shell system as a model-invocable Skill plus MCP tools that turn unstructured release spreadsheets into schema-validated, immutable execution plans — removing manual entry of 40+ parameters per deployment.
-  - Hardened the agent-to-shell interface with an argv-only execution model that structurally eliminates command injection, added cryptographic plan-integrity verification, and enforced fail-closed human-in-the-loop escalation on ambiguous input.
-  - Cut release planning and task setup from roughly 30 minutes to about 1 minute per deployment; authored a 50-case regression suite covering concurrency, state-tampering, and injection defense.
 
-- *2026.02 - 2026.06*, **Software Engineer Intern, SoulLink – AI Companion Platform**, SoulForge Tech LLC, Houston, USA.
-  - Built and deployed a production hybrid search pipeline on AnythingLLM combining dense embedding retrieval, BM25, and Gemini 2.5 Flash reranking, letting users construct personalized virtual characters from uploaded documents.
-  - Engineered a three-tier online memory system on Mem0 (3/14/90-day TTL) with query-time expiration and probabilistic lazy eviction, and extended RAGAS into a 6-dimension offline evaluation framework; the product reached 260+ testers and 8,400+ interactions with 9× week-over-week growth.
+<div class="exp-item">
+  <img src="images/logos/tencent.svg" alt="Tencent logo" class="exp-logo">
+  <div class="exp-header">
+    <span class="exp-role">SRE Intern — Agent Tooling for Production Release Automation</span>
+    <span class="exp-company">Tencent America LLC</span> · New York, USA · <span class="exp-meta">2026.06 – Present</span>
+    <ul>
+      <li>Built the agent-facing tooling layer for an LLM release copilot, packaging a 6,000-line Node.js/Python/shell system as a model-invocable Skill plus MCP tools that turn unstructured release spreadsheets into schema-validated, immutable execution plans — removing manual entry of 40+ parameters per deployment.</li>
+      <li>Hardened the agent-to-shell interface with an argv-only execution model that structurally eliminates command injection, added cryptographic plan-integrity verification, and enforced fail-closed human-in-the-loop escalation on ambiguous input.</li>
+      <li>Cut release planning and task setup from roughly 30 minutes to about 1 minute per deployment; authored a 50-case regression suite covering concurrency, state-tampering, and injection defense.</li>
+    </ul>
+  </div>
+</div>
 
-- *2025.08 - 2025.12*, **Machine Learning Engineer, Sponsored Capstone**, Siemens Healthineers, Champaign, USA.
-  - Owned an inference optimization pipeline end-to-end — distillation, structured pruning, evaluation, latency profiling — on a physics-guided SigmaNet MRI reconstruction architecture.
-  - Cut per-slice inference latency from 296.74ms to 136.67ms (~2.2× faster) and compressed the model from 53.90M to 13.87M parameters, while keeping reconstruction quality close to the teacher (43.70→43.39 PSNR, 0.9745→0.9728 SSIM).
+<div class="exp-item">
+  <img src="images/logos/soulforge.png" alt="SoulForge Tech logo" class="exp-logo">
+  <div class="exp-header">
+    <span class="exp-role">Software Engineer Intern, SoulLink – AI Companion Platform</span>
+    <span class="exp-company">SoulForge Tech LLC</span> · Houston, USA · <span class="exp-meta">2026.02 – 2026.06</span>
+    <ul>
+      <li>Built and deployed a production hybrid search pipeline on AnythingLLM combining dense embedding retrieval, BM25, and Gemini 2.5 Flash reranking, letting users construct personalized virtual characters from uploaded documents.</li>
+      <li>Engineered a three-tier online memory system on Mem0 (3/14/90-day TTL) with query-time expiration and probabilistic lazy eviction, and extended RAGAS into a 6-dimension offline evaluation framework; the product reached 260+ testers and 8,400+ interactions with 9× week-over-week growth.</li>
+    </ul>
+  </div>
+</div>
 
-- *2025.02 - 2025.08*, **Research Assistant, Quantitative Multiscale Imaging Group**, Beckman Institute for Advanced Science and Technology, Champaign, USA.
-  - Designed an on-premise data lake for large scientific datasets using prefix-partitioned directories and metadata indexing, enabling streamed mini-batch loading and faster training throughput.
-  - Containerized training jobs with Docker on HPC clusters and automated a multi-stage atlas-registration workflow (DeepSlice + nonlinear alignment) across 35 high-resolution image slices at 3.5µm.
+<div class="exp-item">
+  <img src="images/logos/siemens-healthineers.svg" alt="Siemens Healthineers logo" class="exp-logo">
+  <div class="exp-header">
+    <span class="exp-role">Machine Learning Engineer, Sponsored Capstone</span>
+    <span class="exp-company">Siemens Healthineers</span> · Champaign, USA · <span class="exp-meta">2025.08 – 2025.12</span>
+    <ul>
+      <li>Owned an inference optimization pipeline end-to-end — distillation, structured pruning, evaluation, latency profiling — on a physics-guided SigmaNet MRI reconstruction architecture.</li>
+      <li>Cut per-slice inference latency from 296.74ms to 136.67ms (~2.2× faster) and compressed the model from 53.90M to 13.87M parameters, while keeping reconstruction quality close to the teacher (43.70→43.39 PSNR, 0.9745→0.9728 SSIM).</li>
+    </ul>
+  </div>
+</div>
+
+<div class="exp-item">
+  <img src="images/logos/beckman-illinois.svg" alt="Beckman Institute at University of Illinois logo" class="exp-logo">
+  <div class="exp-header">
+    <span class="exp-role">Research Assistant, Quantitative Multiscale Imaging Group</span>
+    <span class="exp-company">Beckman Institute for Advanced Science and Technology</span> · Champaign, USA · <span class="exp-meta">2025.02 – 2025.08</span>
+    <ul>
+      <li>Designed an on-premise data lake for large scientific datasets using prefix-partitioned directories and metadata indexing, enabling streamed mini-batch loading and faster training throughput.</li>
+      <li>Containerized training jobs with Docker on HPC clusters and automated a multi-stage atlas-registration workflow (DeepSlice + nonlinear alignment) across 35 high-resolution image slices at 3.5µm.</li>
+    </ul>
+  </div>
+</div>
 
 # 📖 Educations
 - *2024.09 - 2026.01*, University of Illinois Urbana-Champaign, M.S. in Biomedical Image Computing (focus on AI for Imaging).
