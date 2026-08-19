@@ -100,6 +100,15 @@ I have published more than 100 papers at the top international AI conferences wi
   </div>
 </div>
 
+# 💻 Projects
+- **[SIM Card E-Commerce Platform](https://github.com/FocusWilliam/sim-card-shop)** ([Live Demo](http://3.16.157.181/)) — *2026.03 - 2026.04*
+  - Full-stack prepaid SIM card storefront as 5 containerized services (NestJS/TypeScript API, Next.js 14 frontend, PostgreSQL, Redis, Nginx) on AWS EC2, with stateless JWT auth, decorator-based RBAC, and a Redis read-through cache on the highest-traffic endpoint.
+  - Integrated Stripe Checkout with webhook-driven fulfillment, wrote 38 Jest unit/integration tests, and built a GitHub Actions CI/CD pipeline that cut deploy time from ~15 minutes to under 60 seconds.
+
+- **Bengali Speech Recognition from Out-of-Distribution Audio** ([Kaggle Profile](https://www.kaggle.com/focuswilliam)) — *2023.09 - 2023.10*
+  - Won a Kaggle Silver Medal (Top 6%) with a wav2vec-based speech pipeline extracting semantic representations from Bengali audio, fine-tuned with selective layer freezing for better generalization on unseen acoustic conditions.
+
+
 # 📖 Educations
 - *2024.09 - 2026.01*, University of Illinois Urbana-Champaign, M.S. in Biomedical Image Computing (focus on AI for Imaging).
 - *2020.09 - 2024.06*, Hong Kong Baptist University (Zhuhai), B.S. in Computer Science and Technology.
@@ -112,14 +121,6 @@ I have published more than 100 papers at the top international AI conferences wi
 # 🔬 Research Experience
 - *2023.09 - 2024.06*, **Efficient Cubic Regional Attention Transformer (CRAT) for 3D Tumor Segmentation** (First Author)
   - Proposed a 3D cubic Transformer architecture that concentrates attention on informative regions by balancing latent weights and pruning irrelevant key–value pairs, matching baseline segmentation performance while cutting computational cost by over 75% (down to 25.45 GFLOPs); nominated to the FST Poster Conference, supervised by the Department Head, Prof. Weifeng Su.
-
-# 💻 Projects
-- **[SIM Card E-Commerce Platform](https://github.com/FocusWilliam/sim-card-shop)** ([Live Demo](http://3.16.157.181/)) — *2026.03 - 2026.04*
-  - Full-stack prepaid SIM card storefront as 5 containerized services (NestJS/TypeScript API, Next.js 14 frontend, PostgreSQL, Redis, Nginx) on AWS EC2, with stateless JWT auth, decorator-based RBAC, and a Redis read-through cache on the highest-traffic endpoint.
-  - Integrated Stripe Checkout with webhook-driven fulfillment, wrote 38 Jest unit/integration tests, and built a GitHub Actions CI/CD pipeline that cut deploy time from ~15 minutes to under 60 seconds.
-
-- **Bengali Speech Recognition from Out-of-Distribution Audio** ([Kaggle Profile](https://www.kaggle.com/focuswilliam)) — *2023.09 - 2023.10*
-  - Won a Kaggle Silver Medal (Top 6%) with a wav2vec-based speech pipeline extracting semantic representations from Bengali audio, fine-tuned with selective layer freezing for better generalization on unseen acoustic conditions.
 
 <!-- 
 # 💬 Invited Talks
